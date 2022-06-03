@@ -11,8 +11,8 @@
 + Медиазапросы
 ## Над проектом работали:
 + [Дмитрий Ильин](https://github.com/Ilin-Dmitry)
-+ Екатерина Подчалимова
++ [Екатерина Подчалимова](https://github.com/EkaterinaPodchalimova)
 + [Екатерина Руднева](https://github.com/KetiRudneva)
-+ Каролина Липницкайте
++ [Каролина Липницкайте](https://github.com/lipnitskaite)
 + [Константин Бабушкин](https://github.com/kogrms)
 + [Татьяна Чуркина](https://github.com/tsharon-byte)
