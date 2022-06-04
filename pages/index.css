@@ -13,5 +13,8 @@
 @import url(../blocks/footer/__place-address/footer__place-address.css);
 @import url(../blocks/footer/__place-name/footer__place-name.css);
 @import url(../blocks/footer/__place/footer__place.css);
+@import url(../blocks/footer/__sponsors/footer__sponsors.css);
+@import url(../blocks/footer/__sponsor/footer__sponsor.css);
+@import url(../blocks/footer/__sponosor-img/footer__sponosor-img.css);
 @import url(../blocks/footer/__tech-link/footer__tech-link.css);
 @import url(../blocks/footer/__tech-text/footer__tech-text.css);
