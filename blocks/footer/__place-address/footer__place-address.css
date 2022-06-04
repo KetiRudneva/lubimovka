@@ -1,0 +1,8 @@
+.footer__place-address {
+  margin: 0;
+  font-family: 'Formular', Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.38;
+  color: rgba(36, 36, 36, .6);
+}
