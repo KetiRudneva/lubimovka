@@ -1,0 +1,16 @@
+@import url(./header__button/header__button.css);
+@import url(./header__button/__arrow/header__button__arrow.css);
+@import url(./save__button/_play/save__button_play.css);
+@import url(./save__button/__arrow/_play/save__button__arrow_play.css);
+@import url(./save__button/__arrow/_read/save__button__arrow_read.css);
+@import url(./save__button/_read/save__button_read.css);
+@import url(./slider-element__button/slider-element__button.css);
+@import url(./slider-element__button/__arrow/slider-element__button__arrow.css);
+@import url(./slider__button/slider__button.css);
+@import url(./slider__button/__arrow/slider__button__arrow.css);
+@import url(./slider__button/_left/slider__button_left.css);
+@import url(./slider__button/__arrow/_left/slider__button__arrow_left.css);
+@import url(./slider__button/__circle/slider__button__circle.css);
+@import url(./slider__button/__circle/_active/slider__button__circle.css);
+@import url(./burger/burger.css);
+@import url(./burger/__line/burger__line.css);

@@ -1,0 +1,11 @@
+.save__button__arrow_play {
+    width: 21px;
+    height: 13px;
+    padding: 0;
+    background-image: url(../../../images/arrow-left.svg);
+    transform: rotate(-90deg);
+    background-position: center;
+    background-size: cover;
+    margin-right: 22px;
+    margin-left: auto;
+}

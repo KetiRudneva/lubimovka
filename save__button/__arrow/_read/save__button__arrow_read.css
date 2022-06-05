@@ -1,0 +1,20 @@
+.save__button__arrow_read {
+    width: 21px;
+    height: 13px;
+    padding: 0;
+    position: absolute;
+    background-image: url(../../../images/arrow-left.svg);
+    transform: rotate(135deg);
+    background-position: center;
+    background-size: cover;
+}
+
+.save__button__arrow_read_rotate {
+    display: flex;
+    width: 25px;
+    height: 25px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 16px;
+}

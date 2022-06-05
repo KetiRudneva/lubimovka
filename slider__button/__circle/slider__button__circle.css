@@ -1,0 +1,9 @@
+.slider__button__circle {
+    padding: 0;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    border: 1px solid #242424;
+    background: transparent;
+    cursor: pointer;
+}
