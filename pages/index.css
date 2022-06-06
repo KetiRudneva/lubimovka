@@ -1,4 +1,7 @@
 @import url(../vendor/normilize.css);
+@import url(../vendor/fonts/fonts.css);
+@import url(../blocks/root/root.css);
+@import url(../blocks/page/page.css);
 @import url(../vendor/fonts.css);
 @import url(../blocks/burger/burger.css);
 @import url(../blocks/footer/footer.css);
