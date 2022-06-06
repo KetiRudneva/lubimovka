@@ -1,8 +1,6 @@
 .social__button {
-    margin-right: 8px;
     box-sizing: border-box;
     height: 24px;
-    border: none;
     border-bottom: 1px solid #242424;
     border-left: 1px solid #242424;
     font-family: 'Formular', Arial, serif;
