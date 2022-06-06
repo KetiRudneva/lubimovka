@@ -1,0 +1,18 @@
+.social__button {
+    margin-right: 8px;
+    box-sizing: border-box;
+    height: 24px;
+    border: none;
+    border-bottom: 1px solid #242424;
+    border-left: 1px solid #242424;
+    font-family: 'Formular', Arial, serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 14px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color:inherit;
+}
