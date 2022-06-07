@@ -1,0 +1,26 @@
+.social__button {
+    box-sizing: border-box;
+    height: 24px;
+    border-bottom: 1px solid var(--main-color);
+    border-left: 1px solid var(--main-color);
+    font-family: 'Formular', Arial, serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+    transition: background-color .5s ease-in-out;
+    padding: 0 7px 0 0;
+}
+
+.social__button:hover {
+    color: var(--main-bg-color);
+    background-color: var(--main-color);
+}
+
+.social__button:hover path {
+    fill: var(--main-bg-color);
+}

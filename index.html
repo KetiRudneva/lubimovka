@@ -1,15 +1,180 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Любимовка</title>
-  <link rel="stylesheet" href="./pages/index.css" />
-</head>
-<body>
-  <main>
-  </main>
-  <script src="./scripts/index.js"></script>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Любимовка</title>
+        <link rel="stylesheet" href="./pages/index.css"/>
+    </head>
+    <body class="root">
+        <div class="page">
+            <header></header>
+            <main>
+                <section class="performance">
+                    <article class="performance__about"></article>
+                    <article class="performance__brief"></article>
+                    <article class="performance__description">
+                        <div class="performance__video-group">
+                            <video class="performance__video"
+                                   src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+                                   poster="./images/poster.jpg"
+                                   type="video/mp4">Видео пьессы
+                            </video>
+                            <img class="performance__play" src="images/play-button.png" alt="Проигрыватель"/>
+                        </div>
+                        <p class="performance__text">Пьеса «Длань Господня» (Hand to God) — лауреат американской
+                            театральной премии OBIE
+                            (Off-Broadway Theater Awards), номинант ежегодно присуждаемой премии TONY (Theatre Of New
+                            York), театрального аналога «Оскара», и номинант на Британскую премию Лоуренса Оливье в
+                            качестве «Лучшей Новой Комедии». Она была поставлена в бродвейских театрах и в лондонском
+                            Вест-Энде.</p>
+                        <p class="performance__text">Этот спектакль – результат коллаборации фестиваля драматургии
+                            «Любимовка», который запустил
+                            проект по выпуску собственных спектаклей «Любимовка.Продакшн», Театра 18+ и Театра.doc.
+                            Исполнители – выпускники актерской лаборатории Юрия Муравицкого Московской Школы Нового
+                            Кино.</p>
+                        <p class="performance__text">Режиссёр спектакля Юрий Муравицкий – лауреат Национальной
+                            театральной премии
+                            «Золотая маска», лауреат премий Herald Angel Award и Total Theatre Award в номинации
+                            Innovation, Experimentation & Playing with Form на Edinburgh Festival Fringe: «В этой пьесе
+                            меня задевает её смелость и свобода. И то, что она написана смешно. Мне сейчас интересны
+                            комедии. В январе я выпустил «Lё Тартюф. Комедия» в театре на Таганке — тоже комедию и тоже
+                            в известном смысле антиклерикальную. У меня есть стойкое ощущение что всему, что сейчас
+                            происходит в нашей стране и в мире, мы можем противопоставить только смех. Иногда горький
+                            смех, иногда злой. Сейчас в воздухе столько ненависти, что нам всем полезно больше смеяться.
+                            И над собой в том числе. «Длань Господня» — это чёрная комедия. Помимо прочего, она
+                            показывает к чему приводит навязывание и насильственное насаждение религии».</p>
+                        <p class="performance__text">Пьеса была успешно представлена в России в формате читки в 2016
+                            году рамках лаборатории
+                            LARK+Любимовка на сцене Центра им. Мейерхольда.
+                        </p>
+                    </article>
+                    <article class="performance__read"></article>
+                </section>
+                <section class="gallery"></section>
+                <section class="reviews"></section>
+                <section class="feedbacks"></section>
+                <section class="social">
+                    <img class="social__poster" src="./images/action.jpg" alt="Постер спектакля"/>
+                    <div class="social__description">
+                        <span>Рассказать</span>
+                        <ul class="social__buttons">
+                            <li>
+                                <a class="social__button" href="#">
+                                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                              d="M21 12.4766L20.2752 13.2014L14.4766 19L13.7737 18.2971L19.0944 12.9765L-3.63036e-07 12.9765L-3.10999e-07 11.9765L19.0502 11.9765L13.7986 6.72483L14.5234 6L20.2971 11.7737L21 12.4766Z"
+                                              fill="#242424"/>
+                                    </svg>
+                                    <span>fb</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="social__button" href="#">
+                                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                              d="M21 12.4766L20.2752 13.2014L14.4766 19L13.7737 18.2971L19.0944 12.9765L-3.63036e-07 12.9765L-3.10999e-07 11.9765L19.0502 11.9765L13.7986 6.72483L14.5234 6L20.2971 11.7737L21 12.4766Z"
+                                              fill="#242424"/>
+                                    </svg>
+                                    <span>vk</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="social__button" href="#">
+                                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                              d="M21 12.4766L20.2752 13.2014L14.4766 19L13.7737 18.2971L19.0944 12.9765L-3.63036e-07 12.9765L-3.10999e-07 11.9765L19.0502 11.9765L13.7986 6.72483L14.5234 6L20.2971 11.7737L21 12.4766Z"
+                                              fill="#242424"/>
+                                    </svg>
+                                    <span>twtr</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <span>о спектакле</span>
+                        <span>в соцсетях</span>
+                    </div>
+                </section>
+            </main>
+            <footer class="footer">
+                <img class="footer__logo-full" src="./images/logo_full.svg" alt="Логотип Любимовка">
+
+                <div class="footer__place">
+                    <h4 class="footer__place-name">Площадка «8/3»</h4>
+                    <p class="footer__place-address">Москва, ул.&nbsp;Казакова,&nbsp;8, стр.&nbsp;3
+                        Метро&nbsp;«Курская»</p>
+                </div>
+
+                <div class="footer__nav-blocks">
+                    <div class="footer__nav-block">
+                        <a class="footer__nav-link" href="#">Любимовка</a>
+                        <a class="footer__nav-link" href="#">Афиша</a>
+                        <a class="footer__nav-link" href="#">Библиотека</a>
+                        <a class="footer__nav-link" href="#">Блог</a>
+                        <a class="footer__nav-link" href="#">Новости</a>
+                    </div>
+                    <div class="footer__nav-block">
+                        <a class="footer__nav-link" href="#">О фестивале</a>
+                        <a class="footer__nav-link" href="#">Организаторы</a>
+                        <a class="footer__nav-link" href="#">История</a>
+                        <a class="footer__nav-link" href="#">Контакты</a>
+                        <a class="footer__nav-link" href="#">Для прессы</a>
+                    </div>
+                    <div class="footer__nav-block">
+                        <a class="footer__nav-link" href="#">Все проекты</a>
+                        <a class="footer__nav-link" href="#">Любимовка.Ещё</a>
+                        <a class="footer__nav-link" href="#">Спектакли</a>
+                        <a class="footer__nav-link" href="#">Сборник Любимовка.Пьесы</a>
+                        <a class="footer__nav-link" href="#">Lark+Любимовка</a>
+                        <a class="footer__nav-link" href="#">Практика постдраматурга</a>
+                        <a class="footer__nav-link" href="#">Эхо Любимовки</a>
+                    </div>
+                </div>
+
+                <div class="footer__sponsors">
+                    <a class="footer__sponsor" href="#" target="_blank">
+                        <img class="footer__sponosor-img" src="./images/fond_prohorova.png" alt="лого фонд Прохорова">
+                        <p class="footer__tech-text">Генеральный партнёр</p>
+                    </a>
+                    <a class="footer__sponsor" href="#" target="_blank">
+                        <img class="footer__sponosor-img" src="./images/mosbrew.png" alt="лого Мосбрю">
+                    </a>
+                    <a class="footer__sponsor" href="#" target="_blank">
+                        <img class="footer__sponosor-img" src="./images/sbtg.png" alt="лого сбтг">
+                        <p class="footer__tech-text">Онлайн-трансляции</p>
+                    </a>
+                    <a class="footer__sponsor" href="#" target="_blank">
+                        <img class="footer__sponosor-img" src="./images/a_pogovorit.png" alt="лого а поговорить">
+                    </a>
+                </div>
+                <div class="footer__divider"></div>
+
+                <div class="footer__copyright">
+                    <p class="footer__tech-text">&copy; Любимовка, 2022</p>
+                    <a class="footer__tech-text footer__tech-link" href="#" target="_blank">Политика
+                        конфиденциальности</a>
+                </div>
+
+                <div class="footer__designers">
+                    <img class="footer__designers_logo" src="./images/designers_logo.svg" alt="логотип дизайнеров">
+                    <div class="footer__devs">
+                        <p class="footer__tech-text">дизайн сайта &ndash;</p>
+                        <a class="footer__tech-text footer__tech-link" href="#" target="_blank">shishki.collective</a>
+                    </div>
+                </div>
+
+                <div class="footer__devs">
+                    <p class="footer__tech-text">вёрстка и разработка &ndash; студенты</p>
+                    <a class="footer__tech-text footer__tech-link" href="#" target="_blank">Яндекс.Практикума</a>
+                </div>
+
+                <img class="burger" src="./images/burger.svg" alt="меню">
+
+            </footer>
+        </div>
+        <script src="./scripts/index.js"></script>
+    </body>
 </html>
