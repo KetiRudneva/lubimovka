@@ -1,7 +1,6 @@
 .lead__short-description {
-  margin: 0;
+  margin: 0 24px 31px 0;
   padding: 0;
-  margin-bottom: 31px;
   max-width: 304px;
   align-self: flex-end;
   font-weight: 400;
