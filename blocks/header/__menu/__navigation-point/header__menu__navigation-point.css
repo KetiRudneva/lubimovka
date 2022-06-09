@@ -1,0 +1,23 @@
+.header__menu__navigation-point {
+    display: flex;
+    padding-left: 0;
+    height: fit-content;
+    margin: 0;
+    font-family: 'Formular',Arial,sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    font-feature-settings: 'ss01' on;
+    color: #242424;
+    text-decoration: none;
+}
+
+.header__menu__navigation-point:hover .header__menu__ellipse-left {
+    background-image: url(../../../../images/Ellipse-left.svg);
+    background-repeat: no-repeat;
+}
+.header__menu__navigation-point:hover .header__menu__ellipse-right {
+    background-image: url(../../../../images/Ellipse-right.svg);
+    background-repeat: no-repeat;
+}

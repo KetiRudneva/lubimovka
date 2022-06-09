@@ -1,0 +1,15 @@
+.header__heart {
+    max-width: 43px;
+    height: fit-content;
+    object-fit: cover;
+    margin-top: 32px;
+    grid-area: heart;
+}
+
+@media screen and (min-width: 1280px) {
+    .header__heart {
+        display: flex;
+        margin-top: 4px;
+        padding-left: 30px;
+    }
+}

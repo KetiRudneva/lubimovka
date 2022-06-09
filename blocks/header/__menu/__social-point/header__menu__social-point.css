@@ -1,0 +1,19 @@
+.header__menu__social-point {
+    padding-left: 0;
+    margin: 0;
+    height: fit-content;
+    text-decoration: none;
+    font-family: 'Formular',Arial,sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    font-feature-settings: 'ss01' on;
+    color: #242424;
+    padding-top-top: 13px;
+    display: flex;
+}
+
+.header__menu__social-point:hover {
+    text-decoration: underline;
+}

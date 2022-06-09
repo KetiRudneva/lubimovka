@@ -1,0 +1,23 @@
+.header {
+    width: calc(100% - 24px);
+    margin-left: 24px;
+    height: 72px;
+    display: grid;
+    grid-template-columns: 43px 1fr 72px;
+    grid-template-areas:
+    "heart project burger";
+}
+
+@media screen and (min-width: 1280px) {
+    .header {
+        width: 100%;
+        height: 50px;
+        margin-top: 11px;
+        margin-left: 0;
+        grid-template-columns: 106px 1fr 164px;
+        grid-template-rows: minmax(50px,auto);
+        grid-template-areas:
+        "heart point help";
+        border-bottom: 1px solid #242424;;
+    }
+}

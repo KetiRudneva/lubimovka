@@ -1,0 +1,12 @@
+.header__menu {
+    display: none;
+    flex-direction: row;
+    width: 100%
+}
+
+@media screen and (min-width: 1280px) {
+    .header__menu {
+        display: flex;
+        grid-area: point;
+    }
+}

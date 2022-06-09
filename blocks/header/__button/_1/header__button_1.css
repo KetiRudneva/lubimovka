@@ -1,0 +1,18 @@
+.header__button_1 {
+    color: #242424;
+    border-top: 0;
+    border-left: 0;
+    border-right: 1px solid #242424;
+    border-bottom: 1px solid #242424;
+}
+
+.header__button_1:after {
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #242424;
+}
+.header__button_1:hover:after {
+    width: 100%;
+}

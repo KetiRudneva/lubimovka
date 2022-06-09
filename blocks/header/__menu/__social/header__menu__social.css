@@ -1,0 +1,14 @@
+.header__menu__social {
+    display: grid;
+    grid-template-columns: repeat(5,max-content);
+    grid-area: social;
+    align-items: center;
+    gap:16px;
+    width: fit-content;
+    margin: 0;
+    list-style-type: none;
+    padding-left: 23px;
+    padding-right: 25px;
+    border-right: 1px solid #242424;
+    border-left: 1px solid #242424;
+}
