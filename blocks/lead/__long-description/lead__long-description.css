@@ -1,0 +1,9 @@
+.lead__long-description {
+  margin: 0 24px 0 25px;
+  padding: 0;
+  align-self: center;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: -1%;
+}

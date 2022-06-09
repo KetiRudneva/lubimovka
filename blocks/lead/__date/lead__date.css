@@ -1,0 +1,11 @@
+.lead__date {
+  margin: 0;
+  margin-bottom: 16px;
+  padding: 0;
+  width: 240px;
+  align-self: center;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 1.14;
+  letter-spacing: -1%;
+}

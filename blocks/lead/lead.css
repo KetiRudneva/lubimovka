@@ -1,0 +1,7 @@
+.lead {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+  font-family: 'Neue Machina', Georgia, 'Times New Roman', Times, serif;
+}
