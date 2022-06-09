@@ -1,0 +1,5 @@
+.card {
+  transition: box-shadow 0.25s;
+  transition-timing-function: ease-in-out;
+  background-color: #fff;
+}
