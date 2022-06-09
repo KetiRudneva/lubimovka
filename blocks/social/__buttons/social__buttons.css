@@ -1,0 +1,8 @@
+.social__buttons {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    padding: 0;
+    margin: 15px 0 0;
+}

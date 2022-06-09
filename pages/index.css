@@ -1,5 +1,6 @@
 @import url(../vendor/normilize.css);
 @import url(../vendor/fonts/fonts.css);
+@import url(../vendor/variables.css);
 @import url(../blocks/root/root.css);
 @import url(../blocks/page/page.css);
 
@@ -13,7 +14,6 @@
 @import url(../blocks/lead/__link-arrow/lead__link-arrow.css);
 @import url(../blocks/lead/__image/lead__image.css);
 @import url(../blocks/lead/__long-description/lead__long-description.css);
-
 
 @import url(../blocks/burger/burger.css);
 @import url(../blocks/footer/footer.css);
@@ -33,3 +33,13 @@
 @import url(../blocks/footer/__sponosor-img/footer__sponosor-img.css);
 @import url(../blocks/footer/__tech-link/footer__tech-link.css);
 @import url(../blocks/footer/__tech-text/footer__tech-text.css);
+@import url(../blocks/social/social.css);
+@import url(../blocks/social/__poster/social__poster.css);
+@import url(../blocks/social/__description/social__description.css);
+@import url(../blocks/social/__buttons/social__buttons.css);
+@import url(../blocks/social/__button/social__button.css);
+@import url(../blocks/performance/__description/performance__description.css);
+@import url(../blocks/performance/__video/performance__video.css);
+@import url(../blocks/performance/__text/performance__text.css);
+@import url(../blocks/performance/__video-group/performance__video-group.css);
+@import url(../blocks/performance/__play/performance__play.css);

@@ -1,6 +1,6 @@
 .root{
-    background-color: #ECEBE8;
-    color: #242424;
+    background-color: var(--main-bg-color);
+    color: var(--main-color);
     font-family: 'Formular', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
