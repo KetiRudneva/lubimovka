@@ -31,3 +31,10 @@
 @import url(../blocks/performance/__text/performance__text.css);
 @import url(../blocks/performance/__video-group/performance__video-group.css);
 @import url(../blocks/performance/__play/performance__play.css);
+@import url(../blocks/performance/__brief/performance__brief.css);
+@import url(../blocks/performance/__brief-heading/performance__brief-heading.css);
+@import url(../blocks/performance/__duration/performance__duration.css);
+@import url(../blocks/performance/__spacer/performance__spacer.css);
+@import url(../blocks/performance/__age-rating/performance__age-rating.css);
+@import url(../blocks/performance/__role/performance__role.css);
+@import url(../blocks/performance/__name/performance__name.css);

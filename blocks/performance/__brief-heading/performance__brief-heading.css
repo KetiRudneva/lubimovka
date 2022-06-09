@@ -1,0 +1,16 @@
+.performance__brief-heading {
+    margin: 0;
+    padding: 0;
+    padding-top: 58px;
+    padding-left: 29px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-family: 'Neue Machina';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+}
