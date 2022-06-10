@@ -4,6 +4,15 @@
 @import url(../blocks/root/root.css);
 @import url(../blocks/page/page.css);
 
+/* Button */
+@import url(../blocks/button/button.css);
+@import url(../blocks/button/__size/_big/button__size_big.css);
+@import url(../blocks/button/__text/button__text.css);
+@import url(../blocks/button/__text/_size/_big/button__text_size_big.css);
+@import url(../blocks/button/__arrow/button__arrow.css);
+@import url(../blocks/button/__arrow/_type/_up-and-right/button__arrow_type_up-and-right.css);
+@import url(../blocks/button/__arrow/_type/_down/button__arrow_type_down.css);
+
 /* Lead */
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__title/lead__title.css);
@@ -18,6 +27,9 @@
 /* Read */
 @import url(../blocks/read/read.css);
 @import url(../blocks/read/__title/read__title.css);
+@import url(../blocks/read/__resources-container/read__resources-container.css);
+@import url(../blocks/read/__resources-title/read__resources-title.css);
+@import url(../blocks/read/__resources-divider/read__resources-divider.css);
 
 @import url(../blocks/burger/burger.css);
 @import url(../blocks/footer/footer.css);
