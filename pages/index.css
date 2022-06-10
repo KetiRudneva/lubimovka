@@ -30,6 +30,8 @@
 @import url(../blocks/read/__resources-container/read__resources-container.css);
 @import url(../blocks/read/__resources-title/read__resources-title.css);
 @import url(../blocks/read/__resources-divider/read__resources-divider.css);
+@import url(../blocks/read/__author/read__author.css);
+@import url(../blocks/read/__details/read__details.css);
 
 @import url(../blocks/burger/burger.css);
 @import url(../blocks/footer/footer.css);
