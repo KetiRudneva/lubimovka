@@ -1,0 +1,26 @@
+.gallery__container {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(4, auto);
+    column-gap: 3px;
+    row-gap: 2px;
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .gallery__container {
+        grid-template-columns: repeat(3, auto);
+        grid-template-rows: repeat(3, auto);
+        gap: 1px;
+    }
+}
+  
+@media (min-width: 769px) {
+    .gallery__container {
+        grid-template-columns: repeat(4, auto);
+        grid-template-rows: repeat(2, auto);
+        gap: 1px;
+    }
+}
