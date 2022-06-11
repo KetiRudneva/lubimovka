@@ -1,0 +1,10 @@
+.button {
+  text-decoration: none;
+  cursor: pointer;
+  color: var(--main-color);
+  box-sizing: border-box;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

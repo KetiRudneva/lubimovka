@@ -1,0 +1,6 @@
+.read {
+  box-sizing: border-box;
+  font-family: 'Neue Machina', Georgia, 'Times New Roman', Times, serif;
+  padding: 0 24px;
+  color: var(--main-color);
+}
