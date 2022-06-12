@@ -60,7 +60,8 @@
 @import url(../blocks/description/__video/description__video.css);
 @import url(../blocks/description/__text/description__text.css);
 @import url(../blocks/description/__video-group/performance__video-group.css);
-@import url(../blocks/description/__play/description__play.css);
+@import url(../blocks/play/play.css);
+@import url(../blocks/play/_type_hidden/play_type_hidden.css);
 @import url(../blocks/brief/brief.css);
 @import url(../blocks/brief/__heading/brief__heading.css);
 @import url(../blocks/brief/__duration/brief__duration.css);

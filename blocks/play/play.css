@@ -1,11 +1,11 @@
-.description__play {
+.play {
     position: absolute;
     top: calc(50% - 32px);
     left: calc(50% - 32px);
     transition: all 0.3s;
 }
 
-.description__play:hover {
+.play:hover {
     filter: invert(100%);
     -webkit-filter: invert(100%);
 }
