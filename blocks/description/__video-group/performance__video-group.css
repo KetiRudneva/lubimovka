@@ -3,3 +3,9 @@
     width: 100%;
     margin-bottom: 29px;
 }
+
+@media (min-width: 768px) {
+    .description__video-group {
+        margin-bottom: 46px;
+    }
+}

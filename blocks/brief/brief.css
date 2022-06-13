@@ -1,6 +1,12 @@
 .brief {
     margin: 0;
     padding: 0;
-    background-color: #fff;
+    background-color: var(--secondary-bg-color);
     grid-area: brief;
+}
+
+@media (min-width: 768px) {
+    .brief {
+        background-color: var(--main-bg-color);
+    }
 }
