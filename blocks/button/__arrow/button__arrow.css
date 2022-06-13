@@ -1,0 +1,5 @@
+.button__arrow {
+  background-image: url(../../../images/arrow-right.svg);
+  width: 25px;
+  height: 25px;
+}

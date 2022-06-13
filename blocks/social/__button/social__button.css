@@ -1,0 +1,43 @@
+.social__button {
+    box-sizing: border-box;
+    height: 24px;
+    border-bottom: 1px solid var(--main-color);
+    border-left: 1px solid var(--main-color);
+    font-family: 'Formular', Arial, serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+    transition: all .3s ease-in-out;
+    padding: 0 7px 0 0;
+    position: relative;
+}
+
+.social__button:hover {
+    color: var(--main-bg-color);
+    background-color: var(--main-color);
+}
+
+.social__button:hover path {
+    fill: var(--main-bg-color);
+}
+
+.social__button:after {
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    content: '';
+    position: absolute;
+    background:var(--main-color);
+    z-index: -1;
+    transition: all 0.3s;
+}
+
+.social__button:hover:after {
+    width: 100%;
+}

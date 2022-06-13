@@ -1,0 +1,5 @@
+.footer__divider {
+  background-color: var(--main-color);
+  height: 1px;
+  margin: 0 -25px 0 -25px;
+}

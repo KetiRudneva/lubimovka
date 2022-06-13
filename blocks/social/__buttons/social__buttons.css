@@ -1,0 +1,18 @@
+.social__buttons {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    padding: 0;
+    margin: 11px 0 0;
+    position: absolute;
+    top: 46px;
+}
+
+@media (min-width: 768px) {
+    .social__buttons {
+        top: 50px;
+        left: 230px;
+        margin: 0 auto;
+    }
+}
