@@ -12,8 +12,9 @@
     align-items: center;
     text-decoration: none;
     color: inherit;
-    transition: background-color .5s ease-in-out;
+    transition: all .3s ease-in-out;
     padding: 0 7px 0 0;
+    position: relative;
 }
 
 .social__button:hover {
@@ -23,4 +24,20 @@
 
 .social__button:hover path {
     fill: var(--main-bg-color);
+}
+
+.social__button:after {
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    content: '';
+    position: absolute;
+    background:var(--main-color);
+    z-index: -1;
+    transition: all 0.3s;
+}
+
+.social__button:hover:after {
+    width: 100%;
 }

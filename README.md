@@ -16,3 +16,5 @@
 + [Каролина Липницкайте](https://github.com/lipnitskaite)
 + [Константин Бабушкин](https://github.com/kogrms)
 + [Татьяна Чуркина](https://github.com/tsharon-byte)
+
+[GitHub Pages](https://ketirudneva.github.io/lubimovka/)
