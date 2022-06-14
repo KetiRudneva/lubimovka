@@ -1,5 +1,5 @@
 .feedbacks__container {
   padding: 32px 27px 100px 26px;
-  background-color: #fff;
+  background-color: var(--secondary-bg-color);
   margin: 0;
 }
