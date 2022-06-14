@@ -3,6 +3,36 @@
 @import url(../vendor/variables.css);
 @import url(../blocks/root/root.css);
 @import url(../blocks/page/page.css);
+
+/* Button */
+@import url(../blocks/button/button.css);
+@import url(../blocks/button/__size/_big/button__size_big.css);
+@import url(../blocks/button/__text/button__text.css);
+@import url(../blocks/button/__text/_size/_big/button__text_size_big.css);
+@import url(../blocks/button/__arrow/button__arrow.css);
+@import url(../blocks/button/__arrow/_type/_up-and-right/button__arrow_type_up-and-right.css);
+@import url(../blocks/button/__arrow/_type/_down/button__arrow_type_down.css);
+
+/* Lead */
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__short-description/lead__short-description.css);
+@import url(../blocks/lead/__date/lead__date.css);
+@import url(../blocks/lead/__link/lead__link.css);
+@import url(../blocks/lead/__link-text/lead__link-text.css);
+@import url(../blocks/lead/__link-arrow/lead__link-arrow.css);
+@import url(../blocks/lead/__image/lead__image.css);
+@import url(../blocks/lead/__long-description/lead__long-description.css);
+
+/* Read */
+@import url(../blocks/read/read.css);
+@import url(../blocks/read/__title/read__title.css);
+@import url(../blocks/read/__resources-container/read__resources-container.css);
+@import url(../blocks/read/__resources-title/read__resources-title.css);
+@import url(../blocks/read/__resources-divider/read__resources-divider.css);
+@import url(../blocks/read/__author/read__author.css);
+@import url(../blocks/read/__details/read__details.css);
+
 @import url(../blocks/burger/burger.css);
 
 /* стили на секции reviews */
@@ -43,8 +73,23 @@
 @import url(../blocks/social/__description/social__description.css);
 @import url(../blocks/social/__buttons/social__buttons.css);
 @import url(../blocks/social/__button/social__button.css);
-@import url(../blocks/performance/__description/performance__description.css);
-@import url(../blocks/performance/__video/performance__video.css);
-@import url(../blocks/performance/__text/performance__text.css);
-@import url(../blocks/performance/__video-group/performance__video-group.css);
-@import url(../blocks/performance/__play/performance__play.css);
+@import url(../blocks/description/description.css);
+@import url(../blocks/description/__video/description__video.css);
+@import url(../blocks/description/__text/description__text.css);
+@import url(../blocks/description/__video-group/performance__video-group.css);
+@import url(../blocks/play/play.css);
+@import url(../blocks/play/_type_hidden/play_type_hidden.css);
+@import url(../blocks/brief/brief.css);
+@import url(../blocks/brief/__heading/brief__heading.css);
+@import url(../blocks/brief/__duration/brief__duration.css);
+@import url(../blocks/brief/__spacer/brief__spacer.css);
+@import url(../blocks/brief/__age-rating/brief__age-rating.css);
+@import url(../blocks/brief/__role/brief__role.css);
+@import url(../blocks/brief/__name/brief__name.css);
+@import url(../blocks/gallery/gallery.css);
+@import url(../blocks/gallery/__container/gallery__container.css);
+@import url(../blocks/gallery/__list-item/gallery__list-item.css);
+@import url(../blocks/gallery/__item/gallery__item.css);
+@import url(../blocks/gallery/__heading/gallery__heading.css);
+@import url(../blocks/container/container.css);
+@import url(../blocks/social/__br/social__br.css);

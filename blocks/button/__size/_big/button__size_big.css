@@ -1,0 +1,17 @@
+.button__size_big {
+  width: 244px;
+  height: 56px;
+  padding: 16px;
+  position: relative;
+  transition: all 0.3s;
+}
+
+.button__size_big:hover {
+  color: white;
+  background: var(--main-color);
+}
+
+.button__size_big:hover .button__arrow {
+  filter: invert(100%);
+  -webkit-filter: invert(100%);
+}

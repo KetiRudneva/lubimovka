@@ -1,0 +1,8 @@
+@media (min-width: 768px) {
+    .container {
+        display: grid;
+        grid-template-areas: "lead lead"
+                     "brief description"
+                     ". read";
+    }
+}
