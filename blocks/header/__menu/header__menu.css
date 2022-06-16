@@ -1,12 +1,15 @@
 .header__menu {
     display: none;
-    flex-direction: row;
-    width: 100%
+    width: 100%;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1231px) {
     .header__menu {
-        display: flex;
+        display: grid;
+        grid-auto-flow: row;
+        grid-template-columns: 903fr 257fr;
+        grid-template-areas:
+          "navigation social";
         grid-area: point;
     }
 }

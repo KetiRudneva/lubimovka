@@ -1,0 +1,10 @@
+.reviews__next-button {
+  margin: 0;
+  padding: 0;
+  width: 52px;
+  height: 52px;
+  position: relative;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+}

@@ -40,7 +40,7 @@
     transform: scale(1.1);
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1231px) {
     .header__button {
         margin-left: 30px;
         margin-top: 33px;
