@@ -1,0 +1,41 @@
+.header__menu__button {
+    display: none;
+    grid-area: button;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Formular',Arial,sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #242424;
+    padding-left: 17px;
+    transition: all 0.3s;
+    position: relative;
+}
+
+@media screen and (min-width: 1231px) {
+    .header__menu__button {
+        display: flex;
+        grid-area: help;
+    }
+}
+
+.header__menu__button:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    transition: all 0.3s;
+}
+
+.header__menu__button:hover {
+    color:  #E5E5E5;
+}
+
+.header__menu__button:hover .header__menu__button-icon {
+    background-image: url(../../../../images/plus-hover.svg);
+}
+
+.header__menu__button:active:after {
+    transform: scale(1.1);
+}

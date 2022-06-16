@@ -1,0 +1,10 @@
+.header__button__arrow {
+    width: 21px;
+    height: 13px;
+    padding: 0;
+    background-image: url(../../../../images/arrow-left.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 4px;
+}

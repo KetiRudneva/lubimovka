@@ -1,0 +1,15 @@
+.header__menu__button_1 {
+    color: #242424;
+    border:0;
+}
+
+.header__menu__button_1:after {
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #242424;
+}
+.header__menu__button_1:hover:after {
+    width: 100%;
+}

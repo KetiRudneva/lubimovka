@@ -1,0 +1,9 @@
+.header__menu__button-icon {
+    background-image: url(../../../../images/plus.svg);
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

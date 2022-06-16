@@ -1,0 +1,19 @@
+.header__main {
+    display: flex;
+    width: 100%;
+}
+
+@media screen and (min-width: 1231px) {
+    .header__main {
+        width: 100vw;
+        height: 50px;
+        margin-top: 11px;
+        margin-left: 0;
+        display: grid;
+        grid-template-columns: 106px 1fr 164px;
+        grid-template-rows: minmax(50px, auto);
+        grid-template-areas:
+        "heart point help";
+        border-bottom: 1px solid #242424;
+    }
+}
